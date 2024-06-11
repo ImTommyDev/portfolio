@@ -1,0 +1,3 @@
+Como recién graduado como Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, comienzo mi camino con el objetivo de ser full-stack, durante el ciclo me he especializado en back-end, por este motivo he decidido reforzar el front-end realizando un portfolio personal donde podreis conocer un poco más de mí y además utilizaré para subir mis futuros proyectos.
+
+Al ser el primer portfolio y no conocer mucho de la parte de front-end, me estoy apoyando en el vídeo del canal "Código Web", el enlace a su canal es el siguiente -> https://www.youtube.com/c/C%C3%B3digoWeb recomiento sus videos. 
