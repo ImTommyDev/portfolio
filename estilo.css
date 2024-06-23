@@ -731,42 +731,52 @@ html {
     letter-spacing: 3px;
     opacity: 0;
 }
-.portfolio .galeria .proyecto .overlay h3{
+
+.portfolio .galeria .proyecto .overlay h3 {
     margin-bottom: 20px;
     transition: 1s;
 }
-.portfolio .galeria .proyecto .overlay:hover{
+
+.portfolio .galeria .proyecto .overlay:hover {
     opacity: 1;
 }
-.portfolio .galeria .proyecto .overlay:hover h3{
+
+.portfolio .galeria .proyecto .overlay:hover h3 {
     margin-bottom: 0px;
 }
+
 /*SECCIÓN CONTACTO*/
-.contacto{
+.contacto {
     background-image: url(img/contact_bg.png);
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
 }
-.contacto .contenido-seccion{
+
+.contacto .contenido-seccion {
     max-width: 1100px;
     margin: auto;
 }
-.contacto h2{
+
+.contacto h2 {
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
 }
-.contacto .fila{
+
+.contacto .fila {
     display: flex;
 }
-.contacto .col{
+
+.contacto .col {
     width: 50%;
     padding: 10px;
     position: relative;
 }
-.contacto .col input, .contacto .col textarea{
+
+.contacto .col input,
+.contacto .col textarea {
     display: block;
     width: 100%;
     padding: 10px;
@@ -776,7 +786,8 @@ html {
     color: #fff;
     font-size: 18px;
 }
-.contacto button{
+
+.contacto button {
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -789,7 +800,8 @@ html {
     position: relative;
     z-index: 10;
 }
-.contacto button .overlay{
+
+.contacto button .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -799,13 +811,16 @@ html {
     z-index: -1;
     transition: 1s;
 }
-.contacto button:hover .overlay{
+
+.contacto button:hover .overlay {
     width: 100%;
 }
-.contacto .col img{
+
+.contacto .col img {
     width: 100%;
 }
-.contacto .col .info{
+
+.contacto .col .info {
     position: absolute;
     top: 40%;
     background-color: #252A2E;
@@ -814,14 +829,61 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.contacto .col .info ul{
+
+.contacto .col .info ul {
     list-style: none;
 }
-.contacto .col .info ul li{
+
+.contacto .col .info ul li {
     margin-bottom: 20px;
 }
-.contacto .col .info ul li i{
+
+.contacto .col .info ul li i {
     color: #0094f4;
     display: inline-block;
     margin-right: 20px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .redes {
+    margin-bottom: 20px;
+}
+
+footer .redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #0094f4;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
 }
