@@ -2,7 +2,7 @@
 
 const links = [
   { href: "#uthopiq", label: "Uthopiq" },
-  { href: "#projects", label: "Proyectos" },
+  { href: "/projects", label: "Proyectos" },
   { href: "#about", label: "Sobre mí" },
   { href: "#contact", label: "Contacto" },
 ];
