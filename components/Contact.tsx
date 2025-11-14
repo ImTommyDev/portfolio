@@ -1,3 +1,9 @@
+"use client";
+
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
+
 export function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-5xl px-4 py-16 space-y-6">
@@ -104,39 +110,33 @@ export function Contact() {
           </a>
         </div>
 
-        {/* Formulario dummy */}
+        {/* Formulario dummy con shadcn */}
         <form
           className="space-y-4 rounded-xl border border-slate-800 p-4 text-sm"
-          // onSubmit={(e) => e.preventDefault()}
+          onSubmit={(e) => e.preventDefault()}
         >
           <div className="space-y-1">
             <label className="text-xs text-slate-200">Nombre</label>
-            <input
-              className="w-full rounded-md border border-slate-700 bg-slate-900 px-3 py-2 text-sm outline-none focus:border-sky-500"
-              placeholder="Tu nombre"
-            />
+            <Input placeholder="Tu nombre" />
           </div>
+
           <div className="space-y-1">
             <label className="text-xs text-slate-200">Email</label>
-            <input
-              type="email"
-              className="w-full rounded-md border border-slate-700 bg-slate-900 px-3 py-2 text-sm outline-none focus:border-sky-500"
-              placeholder="tucorreo@ejemplo.com"
-            />
+            <Input type="email" placeholder="tucorreo@ejemplo.com" />
           </div>
+
           <div className="space-y-1">
             <label className="text-xs text-slate-200">Mensaje</label>
-            <textarea
-              className="min-h-[120px] w-full rounded-md border border-slate-700 bg-slate-900 px-3 py-2 text-sm outline-none focus:border-sky-500"
+            <Textarea
+              className="min-h-[120px]"
               placeholder="Cuéntame qué idea tienes en mente..."
             />
           </div>
-          <button
-            type="submit"
-            className="w-full rounded-full bg-slate-800 px-4 py-2 text-sm font-medium text-slate-100 hover:bg-slate-700 transition-colors"
-          >
+
+          <Button type="submit" className="w-full" variant="default">
             Enviar (formulario sin conexión aún)
-          </button>
+          </Button>
+
           <p className="text-[11px] text-slate-500">
             Más adelante conectaremos este formulario a un backend o servicio de
             email (Resend, PHPMailer, etc.).
