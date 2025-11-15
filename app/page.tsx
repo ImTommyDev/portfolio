@@ -1,15 +1,16 @@
 import { Navbar } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
-import { Projects } from "@/components/Projects";
 import { About } from "@/components/About";
-import { Contact } from "@/components/Contact";
+import { Projects } from "@/components/Projects";
 import { Uthopiq } from "@/components/Uthopiq";
+import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
+    <div>
       <Navbar />
+      <h1 className="text-red-500 text-5xl">Test</h1>
       <main>
         <Hero />
         <About />
